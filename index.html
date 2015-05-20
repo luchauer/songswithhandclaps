@@ -4,6 +4,8 @@ title: Songs With Hand Claps
 ---
 
 {% for post in site.posts %}
-	<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+	<div class="swhc-index-post-wrap">
+		<p class="swhc-index-post-link-wrap"><a class="swhc-index-post-link" href="{{ post.url }}">{{ post.title }}</a></p>
+	</div>
 {% endfor %}
 
