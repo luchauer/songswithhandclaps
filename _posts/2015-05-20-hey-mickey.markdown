@@ -1,5 +1,5 @@
 ---
-title: Hey Mickey
+title: Mickey
 artist: Toni Basil
 artistWiki: http://en.wikipedia.org/wiki/Toni_Basil
 artistSite: http://www.tonibasil.net/
