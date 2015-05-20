@@ -1,8 +1,22 @@
 <div class="swhc-post-wrap">
-    <h1 class="swhc-page-h1"><a href="{{ post.url }}" class="swhc-page-h1-link">{{ post.title }} by {{ post.artist }}</a></h1>
+    <h1 class="swhc-page-h1">
+        <a href="{{ post.url }}" class="swhc-page-h1-link">{{ post.title }} by {{ post.artist }}</a>
+    </h1>
     <iframe class="swhc-spotify-embed" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A{{ post.spotifyId }}" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-    <p class="swhc-wiki-link-wrap"><a class="swhc-wiki-link" href="{{ post.artistWiki }}">{{ post.artist }} on Wikipedia</a></p>
-    <p class="swhc-artist-site-link-wrap"><a class="swhc-artist-site-link" href="{{ post.artistSite }}">{{ post.artist }}'s Site</a></p>
-    <p class="swhc-amz-link-wrap"><a class="swhc-amz-link" href="http://www.amazon.com/dp/{{ post.amazonId }}?tag={{ site.amazonAssociateId }}">View or buy song on Amazon</a></p>
-    <p class="swhc-itu-link-wrap"><a class="swhc-itu-link" href="https://itunes.apple.com/us/album/{{ post.itunesAlbumId }}?i={{ post.itunesSongId }}&uo=6&at={{ site.itunesAffiliateId }}&ct=" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.png) no-repeat;width:165px;height:40px;@media only screen{background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg);}"></a></p>
+    <p class="swhc-wiki-link-wrap">
+        <a class="swhc-wiki-link" href="{{ post.artistWiki }}">{{ post.artist }} on Wikipedia</a>
+    </p>
+    <p class="swhc-artist-site-link-wrap">
+        <a class="swhc-artist-site-link" href="{{ post.artistSite }}">{{ post.artist }}'s Site</a></p>
+    <p class="swhc-amz-link-wrap">
+        <a class="swhc-amz-link" href="http://www.amazon.com/dp/{{ post.amazonId }}?tag={{ site.amazonAssociateId }}">View or buy song on Amazon</a>
+    </p>
+    <p class="swhc-itu-link-wrap">
+        <a
+            class="swhc-itu-link"
+            href="https://itunes.apple.com/us/album/{{ post.itunesAlbumId }}?i={{ post.itunesSongId }}&uo=6&at={{ site.itunesAffiliateId }}&ct="
+            style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.png) no-repeat;width:165px;height:40px;@media only screen{background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg);}">
+            
+        </a>
+    </p>
 </div>
