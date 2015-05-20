@@ -1,6 +1,6 @@
 ---
 title: Hey Mickey
-layout: post.html
+layout: post
 amazonId: B007CV9OCK
 ---
 
