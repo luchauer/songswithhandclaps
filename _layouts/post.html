@@ -2,12 +2,5 @@
 layout: default
 ---
 
-<div class="swhc-post-wrap">
-    <p class="swhc-home-link-wrap"><a href="/" class="swhc-home-link">&larr; More Songs With Hand Claps</a></p>    
-    <h1 class="swhc-page-h1"><a href="{{ page.url }}" class="swhc-page-h1-link">{{ page.title }} by {{ page.artist }}</a></h1>
-    <iframe class="swhc-spotify-embed" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A{{ page.spotifyId }}" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-    <p class="swhc-wiki-link-wrap"><a class="swhc-wiki-link" href="{{ page.artistWiki }}">{{ page.artist }} on Wikipedia</a></p>
-    <p class="swhc-artist-site-link-wrap"><a class="swhc-artist-site-link" href="{{ page.artistSite }}">{{ page.artist }}'s Site</a></p>
-    <p class="swhc-amz-link-wrap"><a class="swhc-amz-link" href="http://www.amazon.com/dp/{{ page.amazonId }}?tag={{ site.amazonAssociateId }}">View or buy song on Amazon</a></p>
-</div>
+{% include post.html post=page %}
 
