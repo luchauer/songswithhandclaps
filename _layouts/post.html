@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="swhc-post-wrap">
+    <p class="swhc-artist-name">by {{ page.artist }}</p>
     <iframe class="swhc-spotify-embed" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A{{ page.spotifyId }}" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
     <p class="swhc-wiki-link-wrap"><a class="swhc-wiki-link" href="{{ page.artistWiki }}">{{ page.artist }} on Wikipedia</a></p>
     <p class="swhc-artist-site-link-wrap"><a class="swhc-artist-site-link" href="{{ page.artistSite }}">{{ page.artist }}' on Wikipedia's Site</a></p>
