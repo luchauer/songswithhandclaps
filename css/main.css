@@ -4,6 +4,11 @@ body {
     text-align: center;
 }
 
+.swhc-page-h1-link {
+    color: blue;
+    text-decoration: none;
+}
+
 .swhc-credits {
     color: grey;
     font-size: 12px;
