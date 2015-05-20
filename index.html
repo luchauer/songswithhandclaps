@@ -5,8 +5,7 @@ title: Songs With Hand Claps
 
 <h1 class="swhc-page-h1"><a href="{{ page.url }}" class="swhc-page-h1-link">{{ page.title }}</a></h1>
 {% for post in site.posts %}
-	<div class="swhc-index-post-wrap">
-		<p class="swhc-index-post-link-wrap"><a class="swhc-index-post-link" href="{{ post.url }}">{{ post.title }}</a></p>
-	</div>
+	{% assign post = page %}
+	{% include post.html %}
 {% endfor %}
 
