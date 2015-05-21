@@ -1,11 +1,11 @@
 <div class="swhc-post-wrap">
     {% if page.type != "index" %}
         <h1 class="swhc-page-h1">
-            <a href="{{ post.url }}" class="swhc-page-h1-link">{{ post.title }} by {{ post.artist }}</a>
+            <a href="{{ post.url }}" class="swhc-page-h1-link">{{ post.song }} by {{ post.artist }}</a>
         </h1>
     {% else %}
         <h2 class="swhc-page-h2">
-            <a href="{{ post.url }}" class="swhc-page-h2-link">{{ post.title }} by {{ post.artist }}</a>
+            <a href="{{ post.url }}" class="swhc-page-h2-link">{{ post.song }} by {{ post.artist }}</a>
         </h2>
     {% endif %}
     {% if post.spotifyId %}
