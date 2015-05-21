@@ -3,7 +3,7 @@ layout: default
 type: index
 ---
 
-<h1 class="swhc-page-h1"><a href="{{ page.url }}" class="swhc-page-h1-link">{{ page.title }}</a></h1>
+<h1 class="swhc-page-h1"><a href="{{ page.url }}" class="swhc-page-h1-link">{{ site.title }}</a></h1>
 {% for post in site.posts %}
 	{% assign post = page %}
 	{% include post.html %}
