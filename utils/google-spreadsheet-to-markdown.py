@@ -1,7 +1,7 @@
 import gspread
 from slugify import slugify
 
-gc = gspread.login('ekallevig@gmail.com', 'slfeqfddymophzbe')
+gc = gspread.login('ekallevig@gmail.com', 'appspecificpasswordhere')
 ss = gc.open_by_key('1QHjlLByqBR1GqJDD8R7sW81bY0rHXVV_iOOODijhmZg')
 worksheet = ss.sheet1
 all_vals = worksheet.get_all_values()
