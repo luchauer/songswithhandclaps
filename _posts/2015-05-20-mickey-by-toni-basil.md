@@ -8,4 +8,5 @@ amazonId: B002KWZ40M
 spotifyId: 162gk2vyorLJCuZMu43Ift
 itunesSongId: 326908113
 itunesAlbumId: 326907944
+layout: post
 ---
