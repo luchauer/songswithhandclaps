@@ -1,6 +1,7 @@
 ---
 song: Keep The Car Running
 artist: Arcade Fire
+album: Neon Bible
 artistWiki: http://en.wikipedia.org/wiki/Arcade_Fire
 artistSite: http://arcadefire.com/
 layout: post
